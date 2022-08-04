@@ -1,0 +1,21 @@
+{
+  "name": "electron-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "debug": "electron --inspect=5858 .",
+    "watch": "nodemon --exec electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "electron-window-state": "^5.0.3"
+  },
+  "devDependencies": {
+    "electron": "^20.0.0"
+  }
+}
